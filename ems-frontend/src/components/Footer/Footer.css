@@ -1,0 +1,23 @@
+.footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 14px;
+  position:fixed;
+  bottom: 0;
+  height: 20px;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media (max-width: 480px) {
+  .footer {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
